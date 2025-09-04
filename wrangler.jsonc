@@ -1,0 +1,7 @@
+{
+    "$schema": "https://github.com/cloudflare/workers-sdk/files/12887590/wrangler.schema.json",
+    "name": "relaxzone-bot-api",
+    "compatibility_date": "2025-09-04",
+    "main": "src/index.ts",
+    "compatibility_flags": ["nodejs_compat"]
+}
