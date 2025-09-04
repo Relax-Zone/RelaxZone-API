@@ -8,4 +8,4 @@ export const app = new Elysia({ aot: false })
 })
 
 
-app.get('/', () => { return { isOk: true , message : "ทดสอบภาษาไทย"}})
+app.get('/', () => { return { isOk: true , message : "ทดสอบภาษาไทย 🤩"}})
