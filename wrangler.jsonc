@@ -1,7 +1,13 @@
 {
     "$schema": "https://github.com/cloudflare/workers-sdk/files/12887590/wrangler.schema.json",
     "name": "relaxzone-bot-api",
-    "compatibility_date": "2025-09-04",
+    "compatibility_date": "2025-08-29",
     "main": "src/index.ts",
-    "compatibility_flags": ["nodejs_compat"]
+    "compatibility_flags": ["nodejs_compat"],
+    "d1_databases": [{
+        "binding": "DB",
+        "database_name": "relaxzone-prod",
+        "database_id": "482b325b-8f45-4186-93ec-b0bda8d7fb33"
+    }]
+
 }
